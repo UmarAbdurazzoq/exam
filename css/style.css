@@ -199,23 +199,23 @@ main{
 }
 .work-list div p{
   width: 450px;
-width: 719px;
-font-family: Product Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-color: #000000;
-margin: 0px 8px;
+  width: 719px;
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0px 8px;
 }
 .work-list div h3{
   width: 350px;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 26px;
-color: #000000;
-margin: 0px 8px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  margin: 0px 8px;
 }
 .work-list li div {
   display: flex;
@@ -224,4 +224,86 @@ margin: 0px 8px;
   width: 490px;
   margin: 0;
 } 
-
+.order-section{
+  background-color: #00BAFC;
+}
+.order-window{
+  width: 1148px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 56px 100px;
+}
+.order-window h2{
+  width: 184px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  color: #FFFFFF;
+  align-self: center;
+  margin: 0px 16px;
+}
+.order-window p{
+  width: 719px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  align-self: center;
+  margin: 16px 16px;
+  color: #FFFFFF;
+}
+.order-blank{
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  width: 348px;
+  height: 304px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  align-self: center;
+  margin: 0px 0px;
+}
+input{
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  width: 300px;
+  height: 56px;
+  left: 24px;
+  top: 24px;
+  background: #F3F3F3;
+  border-radius: 5px;
+  align-self: center;
+  margin:8px 16px;
+  color: black;
+  border: none;
+}
+select{
+  color: rgb(128, 128, 128);
+  border: none;
+  padding: 16px;
+  width: 300px;
+  height: 56px;
+  background: #F3F3F3;
+  border-radius: 5px;
+}
+.order-btn{
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #00BAFC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  align-self: center;
+  margin: 10px 16px;
+  padding: 8px 16px;
+}
