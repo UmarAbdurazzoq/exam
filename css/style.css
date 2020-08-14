@@ -162,10 +162,10 @@ main{
   padding-bottom: 5px;
 }
 .service-list li h3{
- color: black;
-font-weight: bold;
-font-size: 20px;
-line-height: 26px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
 }
 .sevice-link{
   display: inline-block;
@@ -317,4 +317,96 @@ select{
   align-self: center;
   margin: 10px 16px;
   padding: 8px 16px;
+}
+footer{
+  margin: 0;
+  padding: 0;
+  background-color:#000000;
+}
+.footer-menu{
+  padding: 50px;
+  margin: 0 auto;
+  width: 1148px;
+  height: 338px;
+  display: flex;
+}
+.left-footer{
+  width: 320px;
+}
+.left-footer h3{
+  margin: 0;
+  width: 145px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.left-footer p{
+  width: 320px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.side-pages{
+  padding-left: 70px;
+  text-align: start;
+}
+.side-pages ul{
+  padding: 0;
+}
+.side-pages h3{
+  margin: 0;
+  width: 145px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.side-pages a{
+  text-decoration: none;
+  list-style: none;
+  width: 80px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  align-self: center;
+  margin: 0px 8px;
+}
+.social-footer{
+  padding-left: 70px;
+  text-align: start;
+}
+.social-footer ul{
+  padding: 0;
+}
+.social-footer h3{
+  margin: 0;
+  width: 145px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.social-footer a{
+  display: flex;
+  width: 100px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  align-self: center;
+  margin: 8px 0px;
+  align-items: center;
+  text-decoration: none;
+}
+.social-footer img{
+  padding-right: 5px;
 }
