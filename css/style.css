@@ -64,6 +64,15 @@ background: rgba(25, 25, 25, 0.7);
   margin-left: 32px;
   color: #000;
 }
+.link :hover .submenu{
+  border-bottom: 3px solid black;
+  
+}
+.submenu{
+display: none;
+list-style: none;
+text-decoration: none;
+} 
 .phone-number {
   display: inline-block;
   align-items: center;
