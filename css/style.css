@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Product Sans';
+  src: url(../fonts/ProductSans-Bold.woff2) format('woff2'),
+  url(../fonts/ProductSans-Bold.woff) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url(../fonts/ProductSans-Regular.woff2) format('woff2'),
+  url(../fonts/ProductSans-Regular.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 html{
   box-sizing: border-box;
 }
@@ -9,8 +27,76 @@ html{
 body{
   padding: 0;
   margin: 0;
-  font-family: "Arial", "Helvetica", sans-serif;
-  font-size: 16px;
+  font-family:  "Product Sans", "Arial", sans-serif;
+  font-size: 15px;
   line-height: 1.5;
   color: #222
+}
+header{
+  width: 1148px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-list{
+  width: 1148px;
+  position: fixed;
+  
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 18px 24px;
+}
+.menu-list a {
+  text-decoration: none;
+}
+.menu-link{
+  margin-left: 32px;
+  color: #000;
+}
+.phone-number {
+  display: inline-block;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #00BAFC;
+  color:#FFFFFF;
+  border-radius: 5px;
+  margin-left: 32px;
+}
+.phone-number a{
+  color: #FFFFFF;
+  font-weight: bold;
+}
+main{
+  width: 1148px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.main-intro{
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+  justify-content: space-between;
+  margin: 90px 50px;
+}
+.left-intro h1{
+  width: 463px;
+  margin: 0px 16px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+  color: #000000;
+}
+.left-intro p{
+  width: 465px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0px 16px
 }
