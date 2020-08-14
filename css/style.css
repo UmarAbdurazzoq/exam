@@ -116,7 +116,7 @@ main{
 }
 .divider{
   width: 300px;
-  height: 3px;
+  height: 1px;
   background: #EEEEEE;
 }
 .service-section{
@@ -169,3 +169,59 @@ main{
   border-bottom: 1px solid #00BAFC;
   color: #00BAFC;
 }
+.work-section{
+  width: 1148px;
+  margin: 54px auto;
+  text-align: center;
+}
+.work-section p{
+  width: 719px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0px auto;
+}
+.work-list{
+  display: flex;
+  width: 1148px;
+  justify-content: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.work-list li {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+.work-list div p{
+  width: 450px;
+width: 719px;
+font-family: Product Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+margin: 0px 8px;
+}
+.work-list div h3{
+  width: 350px;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 26px;
+color: #000000;
+margin: 0px 8px;
+}
+.work-list li div {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 490px;
+  margin: 0;
+} 
+
