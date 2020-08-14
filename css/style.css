@@ -52,7 +52,15 @@ header{
 .menu-list a {
   text-decoration: none;
 }
+.menu-link:hover{
+  border-bottom: 3px solid black;
+}
+.menu-link:active{
+ color: #FFFFFF; 
+background: rgba(25, 25, 25, 0.7);
+}
 .menu-link{
+  display: inline-block;
   margin-left: 32px;
   color: #000;
 }
@@ -64,6 +72,16 @@ header{
   color:#FFFFFF;
   border-radius: 5px;
   margin-left: 32px;
+}
+.phone-number:hover{
+  color: #00BAFC;
+  background-color: #fff;
+  border: 1px solid #00BAFC;
+}
+.phone-number:active{
+  color: #FFFFFF;
+  background-color:#00BAFC;
+opacity: 0.6;
 }
 .phone-number a{
   color: #FFFFFF;
@@ -100,6 +118,14 @@ main{
   color: #000000;
   margin: 16px 16px
 }
+.intro-link:hover{
+  background: rgba(0, 186, 252, 0.8);
+}
+.intro-link:active{
+  background: rgba(0, 186, 252, 0.6);
+  
+}
+
 .intro-link{
   text-decoration: none;
   display: inline-block;
@@ -304,6 +330,7 @@ select{
   border-radius: 5px;
 }
 .order-btn{
+  outline: none;
   border: none;
   text-decoration: none;
   display: inline-block;
@@ -317,6 +344,13 @@ select{
   align-self: center;
   margin: 10px 16px;
   padding: 8px 16px;
+}
+.order-btn:hover{
+  background: rgba(0, 186, 252, 0.8);
+}
+.order-btn:active{
+  background: rgba(0, 186, 252, 0.6);
+  
 }
 footer{
   margin: 0;
@@ -378,6 +412,13 @@ footer{
   align-self: center;
   margin: 0px 8px;
 }
+.side-pages a:hover{
+  color:#00BAFC;
+}
+.side-pages a:active{
+  color:#00BAFC;
+  opacity: 0.6;
+}
 .social-footer{
   padding-left: 70px;
   text-align: start;
@@ -409,4 +450,12 @@ footer{
 }
 .social-footer img{
   padding-right: 5px;
+}
+.social-footer a:active {
+  color:#00BAFC;
+  opacity: 0.6;
+}
+.social-footer a:hover{
+  color:#00BAFC;
+  
 }
